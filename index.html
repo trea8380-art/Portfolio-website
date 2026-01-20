@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chantrea - Technical Support Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#home">
+        <i class="fas fa-code"></i> Chantrea
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fas fa-moon" id="themeIcon"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="hero-section">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
+          <h1 class="display-4 fw-bold mb-3">
+            Hi, I'm <span class="text-primary">Chantrea</span>
+          </h1>
+          <p class="lead mb-4">
+            Technical Support
+          </p>
+          <p class="text-muted mb-4">
+            Providing expert technical support and solving network & security
+            challenges
+          </p>
+          <a href="#contact" class="btn btn-primary btn-lg me-3">Get In Touch</a>
+          <a href="#about" class="btn btn-outline-primary btn-lg">Learn More</a>
+        </div>
+        <div class="col-lg-6 text-center">
+          <div class="profile-image-container">
+            <img src="image/photo.png" alt="Chantrea - Technical Support Specialist"
+              class="img-fluid rounded-circle shadow-lg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-5">About</h2>
+      <div class="row">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <div class="reel-container">
+            <img src="image/photo.png" alt="About Chantrea" class="reel-image" />
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="mb-4">Who Am I?</h3>
+          <p class="about-text mb-3">
+            I am a third-year Computer Science student at the Royal University of Phnom Penh (RUPP).
+            I currently work as a Technical Support with over one year of hands-on experience
+            in networking and security systems.
+          </p>
+          <p class="about-text mb-4">
+            My passion lies in solving technical challenges, helping customers
+            understand complex products, and maintaining robust system
+            infrastructure. I believe in clear communication and continuous
+            learning to provide the best support possible.
+          </p>
+
+          <div class="info-box">
+            <div class="info-item mb-3">
+              <h5>
+                <i class="fas fa-graduation-cap text-primary"></i> Education
+              </h5>
+              <p class="mb-0">Computer Science</p>
+            </div>
+            <div class="info-item mb-3">
+              <h5>
+                <i class="fas fa-briefcase text-primary"></i> Experience
+              </h5>
+              <p class="mb-0">Technical Support - 1+ Years</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-5">Services</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <h5>Setup & Configuration</h5>
+            <p class="text-muted">
+              Setup and configuration of software and hardware for smooth system operation
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-network-wired"></i>
+            </div>
+            <h5>Network & Security System</h5>
+            <p class="text-muted">
+              Manage and resolve common network and security system
+              issues to ensure stable and secure operations.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-headset"></i>
+            </div>
+            <h5>Customer Support & Guidance</h5>
+            <p class="text-muted">
+              Technical support and clear guidance for effective product use
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h5>System Maintenance & Troubleshooting</h5>
+            <p class="text-muted">
+              System maintenance and issue resolution to reduce downtime
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-5">Experience</h2>
+      <div class="experience-timeline">
+        <div class="experience-item experience-item-left">
+          <div class="experience-content">
+            <h4>Training Course – Network & Security</h4>
+            <p class="experience-description">
+              Completed comprehensive training focusing on network systems and security fundamentals.
+              Gained essential knowledge in software and hardware configuration, establishing a strong
+              foundation for my technical support career.
+            </p>
+          </div>
+          <div class="timeline-node">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <div class="timeline-date">October 2023 – January 2024</div>
+        </div>
+        <div class="experience-item experience-item-right">
+          <div class="experience-content experience-content-left-align">
+            <h4>Technical Support Internship</h4>
+            <p class="experience-description">
+              Supported customers and installers by assisting with common network and security issues.
+              This internship provided valuable real-world technical experience, allowing me to apply
+              theoretical knowledge in practical scenarios and develop my problem-solving skills.
+            </p>
+          </div>
+          <div class="timeline-node">
+            <i class="fas fa-headset"></i>
+          </div>
+          <div class="timeline-date">June 2024 – October 2025</div>
+        </div>
+        <div class="experience-item experience-item-left">
+          <div class="experience-content">
+            <h4>Technical Support</h4>
+            <p class="experience-description">
+              Successfully transitioned from internship to full-time role, working alongside experienced
+              professionals. Enhanced my problem-solving abilities, adaptability, and leadership skills
+              while providing reliable technical support to customers and maintaining high service standards.
+            </p>
+          </div>
+          <div class="timeline-node">
+            <i class="fas fa-user-cog"></i>
+          </div>
+          <div class="timeline-date">December 2025 – Present</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-5">Skills</h2>
+      <div class="row">
+        <div class="col-12">
+          <h5 class="mb-3">Technical Skills</h5>
+          <p class="text-muted mb-4">
+            Core technical competencies developed through academic studies and experience:
+          </p>
+          <div class="skills-tags mb-5">
+            <span class="skill-tag">Basic Networking</span>
+            <span class="skill-tag">Computer Fundamentals</span>
+            <span class="skill-tag">Computer Architecture</span>
+            <span class="skill-tag">Knowledge of Network & Security products</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <h5 class="mb-3">Soft Skills</h5>
+          <p class="text-muted mb-4">
+            Skills developed through hands-on work experience:
+          </p>
+          <div class="skills-tags">
+            <span class="skill-tag">Problem Solving</span>
+            <span class="skill-tag">Adaptability</span>
+            <span class="skill-tag">Leadership</span>
+            <span class="skill-tag">Communication</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 contact-section">
+    <div class="container">
+      <h2 class="section-title mb-5">Contact</h2>
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-8">
+          <p class="lead text-center mb-4">
+            Get in touch with me! Fill out the form below or use the contact
+            information.
+          </p>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-8">
+          <form class="contact-form" id="contactForm">
+            <div class="mb-3">
+              <label for="fullName" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Enter your full name"
+                required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email"
+                required />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message"
+                required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-submit">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <div class="d-flex justify-content-center gap-3 flex-wrap">
+            <a href="mailto:Chantrea2508@gmail.com" class="contact-button">
+              <i class="fas fa-envelope"></i>
+              <span>Chantrea2508@gmail.com</span>
+            </a>
+            <a href="tel:+855884775859" class="contact-button">
+              <i class="fas fa-phone"></i>
+              <span>+855 88 4775 859</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="mb-0">&copy; 2025 Chantrea. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="mb-0">
+            About this website: built with html css javascript and bootstrap
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
